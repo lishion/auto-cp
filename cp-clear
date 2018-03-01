@@ -2,5 +2,6 @@
 if [ -e ".cp-config" ]
 then
     rm .cp-config
+    echo "clear config file"
 fi
 
