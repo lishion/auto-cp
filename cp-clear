@@ -1,0 +1,6 @@
+#!/bin/bash
+if [ -e ".cp-config" ]
+then
+    rm .cp-config
+fi
+

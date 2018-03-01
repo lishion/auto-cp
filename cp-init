@@ -1,4 +1,5 @@
 #!/bin/bash
-python3 cp_config.py $@
+base_path="$( cd "$( dirname "$0"  )" && pwd  )"
+python3 "${base_path}/cp_config.py" $@
 
 
